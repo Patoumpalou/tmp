@@ -1,0 +1,8 @@
+int ft_recursive_factorial(int nbr)
+{
+    if (nbr < 0)
+        return 0;
+    if (nbr <= 1)
+        return 1;
+    return nbr * ft_recursive_factorial(nbr - 1);
+}
